@@ -75,7 +75,7 @@ jobs:
           git config --local user.email '${{ secrets.EMAIL }}'
           git config --local user.name '${{ secrets.NAME }}'
           git pull origin main
-          git add ./data/*
+          git add ./data/clash.yaml
           git commit -m "$(date '+%Y-%m-%d %H:%M:%S')"
       - name: 推送更改
         uses:  ad-m/github-push-action@master
