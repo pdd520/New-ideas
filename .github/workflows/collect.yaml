@@ -27,7 +27,7 @@ env:
   ENABLE_SPECIAL_PROTOCOLS: ${{ vars.ENABLE_SPECIAL_PROTOCOLS }}
 
 jobs:
-  process:
+  Collect:
     runs-on: ubuntu-latest
 
     steps:
