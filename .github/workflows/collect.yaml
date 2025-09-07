@@ -74,30 +74,6 @@ jobs:
         with:
           branch: main
 
-      - name: Update Gist with clash.yaml
-        run: |
-          curl -X PATCH "https://api.github.com/gists/${{ secrets.GIST_LINK }}" \
-          -H "Authorization: token ${{ secrets.GIST_PAT }}" \
-          -d '{
-            "files": {
-              "clash.yaml": {
-                "content": "$(cat ./data/clash.yaml)"
-              }
-            }
-          }'
-
-      - name: Update Gist with v2ray.txt
-        run: |
-          curl -X PATCH "https://api.github.com/gists/${{ secrets.GIST_LINK }}" \
-          -H "Authorization: token ${{ secrets.GIST_PAT }}" \
-          -d '{
-            "files": {
-              "v2ray.txt": {
-                "content": "$(cat ./data/v2ray.txt)"
-              }
-            }
-          }'
-
       - name: Delete workflow runs
         uses: Mattraks/delete-workflow-runs@v2
         with:
