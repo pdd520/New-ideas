@@ -67,6 +67,7 @@ jobs:
           git add ./data/*
           git reset ./data/clash.yaml
           git reset ./data/v2ray.txt
+          git reset ./data/singbox.json
           git commit -m "$(date '+%Y-%m-%d %H:%M:%S')"
 
       - name: Push changes
