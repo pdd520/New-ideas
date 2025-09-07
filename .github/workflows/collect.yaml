@@ -59,7 +59,7 @@ jobs:
       - name: Timestamp
         run: date
 
-      - name: Commit changes (except clash.yaml and v2ray.txt)
+      - name: Commit changes
         run: |
           git config --local user.email '${{ secrets.EMAIL }}'
           git config --local user.name '${{ secrets.NAME }}'
