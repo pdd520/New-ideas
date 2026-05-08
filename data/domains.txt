@@ -2649,3 +2649,7 @@ https://panel.feida.org/
 https://sub-b1.feida.org/
 https://api.feida.org/
 https://api-r1.fastnode001.com/
+https://xb.deishidei.me/
+https://dd.bajrrhgg.com/
+https://gluapi.glucloud.top/
+https://376334.magic.lat/
