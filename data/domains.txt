@@ -2896,3 +2896,4 @@ https://panel.gold-cloud.net/
 https://api.968111.xyz/
 https://poless.com/
 https://cni.lol/
+https://xboard.lzalien.org/
